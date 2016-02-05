@@ -42,12 +42,27 @@ namespace _131RPP_Kozir_1
             }
             if (z % 5 == 0)
             {
-                Console.WriteLine("Кратно 5");       ///
+                Console.WriteLine("делится на 5");       ///
             }
             else                                    //делиться ли оно на 5, 10, 20 без остатка
             {
-                Console.WriteLine("Не кратно 5");   ///
-
+                Console.WriteLine("Не делится на 5");   ///
+            }
+            if (z % 10 == 0)
+            {
+                Console.WriteLine("делится на 10");       ///
+            }
+            else                                     //делиться ли оно на 5, 10, 20 без остатка
+            {
+                Console.WriteLine("Не делится на 10");
+            }                                           ///
+                    if (z % 20 == 0)
+            {
+                Console.WriteLine("делится на 20");       ///
+            }
+            else                                    //делиться ли оно на 5, 10, 20 без остатка
+            {
+                Console.WriteLine("Не делится на 20");   ///
             }
            //6-7 пункты////////////////////////////////////
             start:
@@ -58,11 +73,12 @@ namespace _131RPP_Kozir_1
                    goto start;
                }
             //8-9 пункты///////////////////////////////////
-            while (z > 0)
+            do
             {
                 z--;                           //инструкция while
-               Console.WriteLine(z);
-            }
+                Console.WriteLine(z);
+            } while (z >= 0);
+
             //10 пункт/////////////////////////////////////
             for (int i = z; z > 0; z--)
             {
