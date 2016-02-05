@@ -34,19 +34,19 @@ namespace _131RPP_Kozir_1
 
             if (z % 2 == 0)
             {
-                Console.WriteLine("z-четное");
+                Console.WriteLine("z-четное");      ///
             }
-            else
+            else                                   //четное или нечетное
             {
-                Console.WriteLine("z-не четное");
+                Console.WriteLine("z-не четное");  //
             }
             if (z % 5 == 0)
             {
-                Console.WriteLine("Кратно 5");
+                Console.WriteLine("Кратно 5");       ///
             }
-            else
+            else                                    //делиться ли оно на 5, 10, 20 без остатка
             {
-                Console.WriteLine("Не кратно 5");
+                Console.WriteLine("Не кратно 5");   ///
 
             }
            //6-7 пункты////////////////////////////////////
