@@ -64,7 +64,7 @@ namespace _131RPP_Kozir_1
                Console.WriteLine(z);
             }
             //10 пункт/////////////////////////////////////
-            for (i = z; z > 0; z--)
+            for (int i = z; z > 0; z--)
             {
                 Console.WriteLine(z);            //инструкцию for
             }
