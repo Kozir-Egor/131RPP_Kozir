@@ -10,14 +10,15 @@ namespace _131RPP_Kozir_1
     {
         static void Main(string[] args)
         {
-            int x, y;
+            int x, y; //объявление переменных
             Console.WriteLine("Введите x");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine()); //ввод с консоли
             Console.WriteLine("Введите y");
             y = Convert.ToInt32(Console.ReadLine());
-            int z;
-            z = x + y;
-            Console.WriteLine("{1}+{2}={0}", z, x, y);
+            int z; //объявление z
+            z = x + y; //сумма z
+            Console.WriteLine("{1}+{2}={0}", z, x, y); //вывод z
+           
             Console.ReadKey();
         }
     }
